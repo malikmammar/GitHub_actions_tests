@@ -21,6 +21,9 @@ jobs:
       - name: Run docker with python 
         run: |
           echo docker run -ti python 
+
+      - name : run python script
+        run : | 
           import os
           print("hello world")
           
