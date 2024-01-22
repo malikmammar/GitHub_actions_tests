@@ -19,10 +19,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run docker with python 
-        run: echo docker run -ti python 
+        run: echo docker run -ti python python-hello.py
 
       # Runs a set of commands using the runners shell
       - name: run the script
         run: |
           echo python python-hello.py
-          echo test, and deploy your project.
