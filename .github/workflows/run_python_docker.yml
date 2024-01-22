@@ -24,8 +24,8 @@ jobs:
 
       - name : run python script
         run : | 
-          import os
-          print("hello world")
+          echo import os
+          echo print("hello world")
           
 
       # Runs a set of commands using the runners shell
