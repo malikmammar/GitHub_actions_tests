@@ -19,7 +19,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run docker with python 
-        run: docker run -ti python python-hello.py
+        run: |
+          echo docker run -ti python
+          python  python-hello.py
+          
 
       # Runs a set of commands using the runners shell
  #     - name: run the script
